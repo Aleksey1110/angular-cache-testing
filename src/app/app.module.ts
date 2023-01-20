@@ -3,14 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShopComponent } from './shop/shop.component';
+import { SharedModule } from '../../projects/shared/src/lib/shared.module';
+import { CartModule } from '../../projects/cart/src/lib/cart.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
+    CartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
