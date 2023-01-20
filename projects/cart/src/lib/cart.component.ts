@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <lib-banner text="some text"></lib-banner>
     <p>
       cart works!
+      some text
     </p>
   `,
   styles: [
