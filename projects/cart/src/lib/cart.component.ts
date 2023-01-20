@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
     <lib-banner text="some text"></lib-banner>
     <p>
       cart works!
-      some text
+      some text 2
     </p>
   `,
   styles: [
